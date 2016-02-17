@@ -1,0 +1,3 @@
+class SubCompany < ActiveRecord::Base
+  belongs_to :company
+end
